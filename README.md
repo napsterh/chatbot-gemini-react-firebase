@@ -41,12 +41,12 @@ npm install <otra-dependencia-necesaria>
    - Crea un archivo llamado `.env.local` en el directorio raíz de tu proyecto y agrega tus credenciales de Firebase:
 
      ```plaintext
-     REACT_APP_FIREBASE_API_KEY=AIzaSyB1mZyxTUCA-nQrzzaaaaZPUqYElDwTyaA
-     REACT_APP_FIREBASE_AUTH_DOMAIN=chatbot-with-gemini-dxxx99.firebaseapp.com
-     REACT_APP_FIREBASE_PROJECT_ID=chatbot-with-gemini-dxxx9
-     REACT_APP_FIREBASE_STORAGE_BUCKET=chatbot-with-gemini-dxxx9.appspot.com
-     REACT_APP_FIREBASE_MESSAGING_SENDER_ID=640319239212
-     REACT_APP_FIREBASE_APP_ID=1:640319239212:web:6db4xasxsb4bcc2cc818d89
+      REACT_APP_FIREBASE_API_KEY=<TU_FIREBASE_API_KEY>
+      REACT_APP_FIREBASE_AUTH_DOMAIN=<TU_FIREBASE_AUTH_DOMAIN>
+      REACT_APP_FIREBASE_PROJECT_ID=<TU_FIREBASE_PROJECT_ID>
+      REACT_APP_FIREBASE_STORAGE_BUCKET=<TU_FIREBASE_STORAGE_BUCKET>
+      REACT_APP_FIREBASE_MESSAGING_SENDER_ID=<TU_FIREBASE_MESSAGING_SENDER_ID>
+      REACT_APP_FIREBASE_APP_ID=<TU_FIREBASE_APP_ID>
      ```
 
 4. **Instalar la Extensión de Gemini en Firebase**:
