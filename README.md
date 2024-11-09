@@ -18,8 +18,8 @@ Este proyecto es una aplicación de chatbot construida utilizando Gemini AI, Fir
 ### 1. Crear un Proyecto en React
 
 ```bash
-npx create-react-app mi-chatbot
-cd mi-chatbot
+npm create vite@latest chatbot-gemini --template react
+cd chatbot-gemini
 ```
 
 ### 2. Instalar Firebase y Dependencias Necesarias
@@ -28,7 +28,7 @@ Instala Firebase y cualquier otra dependencia requerida para la funcionalidad de
 
 ```bash
 npm install firebase
-npm install <otra-dependencia-necesaria>
+npm install marked
 ```
 
 ### 3. Configurar Firebase
@@ -66,6 +66,12 @@ src/
 │   ├── useChat.js       # Hook personalizado para manejar la lógica del chat
 ├── lib/
 │   ├── firebaseConfig.js # Configuración e inicialización de Firebase
+├── styles/
+│   ├── chat.css
+│   ├── home.css
+├── App.jsx
+├── index.css
+├── main.jsx
 ```
 
 ### 5. Configurar Componentes del Chatbot
