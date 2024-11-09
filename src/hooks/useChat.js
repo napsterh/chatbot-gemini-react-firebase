@@ -1,4 +1,3 @@
-// src/hooks/useChat.js
 import { useState, useEffect } from 'react';
 import { db } from '../lib/firebaseConfig';
 import { collection, addDoc, query, orderBy, onSnapshot, serverTimestamp, doc } from 'firebase/firestore';
@@ -68,17 +67,6 @@ const useChat = (userId, conversationId, userProfilePicUrl, botProfilePicUrl) =>
     }
   };
 
-  // const resetChat = async () => {
-  //   const messagesRef = collection(db, 'conversations', conversationId, 'messages');
-  //   const messagesSnapshot = await getDocs(messagesRef);
-
-  //   // Borrar cada mensaje individualmente
-  //   const deletePromises = messagesSnapshot.docs.map((doc) => deleteDoc(doc.ref));
-  //   await Promise.all(deletePromises);
-
-  //   setChat([]); // Limpia el estado local de chat
-  // };
-
   return {
     message,
     setMessage,
@@ -86,7 +74,6 @@ const useChat = (userId, conversationId, userProfilePicUrl, botProfilePicUrl) =>
     isTyping,
     handleSendMessage,
     handleKeyDown,
-    // resetChat
   };
 };
 
