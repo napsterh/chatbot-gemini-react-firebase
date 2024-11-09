@@ -79,7 +79,7 @@ src/
 1. **Ejecutar Localmente**: Inicia la aplicación de React en tu máquina local.
 
    ```bash
-   npm start
+   npm run dev
    ```
 
 2. **Desplegar en Firebase Hosting**:
