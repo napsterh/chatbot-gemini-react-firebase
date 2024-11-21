@@ -7,7 +7,7 @@ const Home = () => {
    return (
       <div className="home-container-view">
          <div className="home-view-content">
-            <h1 className="home-title">¡Bienvenidos al CodeOn 2024!</h1>
+            <h1 className="home-title">¡Bienvenidos al DevFest Lima 2024!</h1>
             <p className="home-subtitle">
                Chatbot intuitivo desarrollado con React, Firebase y Gemini IA.
             </p>
